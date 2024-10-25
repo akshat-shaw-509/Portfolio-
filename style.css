@@ -29,6 +29,7 @@ body {
     color: white;
     padding: 10px 0;
     text-align: center;
+    display: flex;
     animation: slideInLeft 1s ease-in-out;
   }
   
