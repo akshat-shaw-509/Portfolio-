@@ -32,20 +32,11 @@ body {
     display: flex;
     animation: slideInLeft 1s ease-in-out;
   }
-/* Sticky Header */
-#header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    position: relative; /* default position */
-    transition: top 0.3s; /* Smooth transition */
-}
-
 #header.sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Keep it on top */
+    z-index: 1000;
 }
 
   nav{
